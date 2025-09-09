@@ -1,0 +1,15 @@
+{
+  "inputs": [
+    {
+      "name": "query",
+      "type": "promptString",
+      "description": "The string input to send to the MCP server"
+    }
+  ],
+  "servers": {
+    "fetch": {
+      "command": ".venv/Scripts/python.exe",
+      "args": ["hello_mcp.py"]
+    }
+  }
+}
