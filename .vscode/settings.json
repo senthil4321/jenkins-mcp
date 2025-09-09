@@ -1,7 +1,7 @@
 {
   "files.exclude": {
     "**/requirements.txt": true,
-    "**/.gitignore": true
-  ,"**/LICENSE": true
+    "**/.gitignore": true,
+  "**/LICENSE": true
   }
 }
