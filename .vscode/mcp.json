@@ -7,9 +7,13 @@
     }
   ],
   "servers": {
-    "fetch": {
+    "jenkins_mcp": {
       "command": ".venv/Scripts/python.exe",
       "args": ["hello_mcp.py"]
+    },
+    "linux_mcp": {
+      "command": ".venv/Scripts/python.exe",
+      "args": ["ssh_mcp.py"]
     }
-  }
+   }
 }
