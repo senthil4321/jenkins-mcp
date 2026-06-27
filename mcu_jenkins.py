@@ -27,7 +27,7 @@ except Exception as e:
     JENKINS_API_TOKEN = None
 
 # Create MCP server
-mcp = FastMCP(name="jenkins")
+mcp = FastMCP(name="mcu_jenkins")
 
 # Simple tool
 @mcp.tool()

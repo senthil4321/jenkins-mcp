@@ -7,13 +7,13 @@
     }
   ],
   "servers": {
-    "jenkins_mcp": {
+    "mcu_jenkins": {
       "command": ".venv/Scripts/python.exe",
-      "args": ["hello_mcp.py"]
+      "args": ["mcu_jenkins.py"]
     },
-    "linux_mcp": {
+    "mcu_ssh": {
       "command": ".venv/Scripts/python.exe",
-      "args": ["ssh_mcp.py"]
+      "args": ["mcu_ssh.py"]
     }
    }
 }

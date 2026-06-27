@@ -19,7 +19,7 @@ except Exception as e:
     SSH_KEY_PATH = None
 
 # Create MCP server for SSH
-ssh_mcp = FastMCP(name="ssh-mcp")
+ssh_mcp = FastMCP(name="mcu_ssh")
 
 @ssh_mcp.tool()
 def connectSSH(ip: str = None, username: str = None, password: str = None) -> dict:
