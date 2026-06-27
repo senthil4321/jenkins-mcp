@@ -1,0 +1,6 @@
+﻿{
+  "host": "<ssh-host-ip>",
+  "username": "your-username",
+  "password": "your-password",
+  "key_path": null
+}

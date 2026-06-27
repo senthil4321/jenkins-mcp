@@ -1,0 +1,6 @@
+﻿{
+    "job_name": "your-job-name",
+    "url": "http://<jenkins-host>:8080",
+    "username": "your-jenkins-username",
+    "token": "your-jenkins-api-token"
+}
