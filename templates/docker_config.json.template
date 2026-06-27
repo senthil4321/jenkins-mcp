@@ -1,0 +1,7 @@
+{
+  "host": "<ssh-host-ip-of-docker-server>",
+  "port": 22,
+  "username": "your-username",
+  "password": "your-password",
+  "key_path": null
+}
